@@ -173,6 +173,10 @@ section.about img {
     width: 300px;
     border-radius: 50%;
     margin-left: 100px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+section.about img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 section.about .content {
     margin-left: 100px;
